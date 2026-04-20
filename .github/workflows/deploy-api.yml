@@ -1,0 +1,28 @@
+name: Build & Verify API
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'hello-ktm-trek-api/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: hello-ktm-trek-api/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: hello-ktm-trek-api
+
+      - name: TypeScript build check
+        run: npm run build
+        working-directory: hello-ktm-trek-api
