@@ -36,7 +36,7 @@ export class TripController {
 
   async getTripBySlug(req: Request, res: Response) {
     try {
-      const trip = await tripService.getTripBySlug(req.params.slug)
+      const trip = await tripService.getTripBySlug(req.params.slug as string)
       res.json({ success: true, data: trip })
     } catch (error: any) {
       const status = error.message === 'Trip not found' ? 404 : 500

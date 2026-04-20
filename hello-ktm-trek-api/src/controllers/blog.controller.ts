@@ -23,7 +23,7 @@ export class BlogController {
 
   async getPostBySlug(req: Request, res: Response) {
     try {
-      const post = await blogService.getPostBySlug(req.params.slug)
+      const post = await blogService.getPostBySlug(req.params.slug as string)
       res.json({ success: true, data: post })
     } catch (error: any) {
       const status = error.message === 'Blog post not found' ? 404 : 500

@@ -15,7 +15,7 @@ export class ReviewController {
 
   async getReviewsForTrip(req: Request, res: Response) {
     try {
-      const reviews = await reviewService.getReviewsForTrip(req.params.tripId)
+      const reviews = await reviewService.getReviewsForTrip(req.params.tripId as string)
       res.json({ success: true, data: reviews })
     } catch (error: any) {
       res.status(500).json({ success: false, error: { message: error.message } })

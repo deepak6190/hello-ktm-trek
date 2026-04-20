@@ -1,11 +1,11 @@
 import { TripModel, TripDocument } from '../models/trip.model'
-import { TripFilters, DEFAULT_PAGE_SIZE } from '../constants'
-import type { TripFilters as TripFiltersType } from '../types'
+import { DEFAULT_PAGE_SIZE } from '../constants'
+import type { TripFilters } from '../types'
 
 const DEFAULT_LIMIT = DEFAULT_PAGE_SIZE
 
 export class TripRepository {
-  async findAll(filters: TripFiltersType = {}) {
+  async findAll(filters: TripFilters = {}) {
     const {
       destination, activityType, difficulty, region,
       minDuration, maxDuration, maxPrice,

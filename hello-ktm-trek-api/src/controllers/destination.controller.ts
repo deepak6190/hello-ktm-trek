@@ -15,7 +15,7 @@ export class DestinationController {
 
   async getByName(req: Request, res: Response) {
     try {
-      const destination = await destinationService.getDestinationByName(req.params.name)
+      const destination = await destinationService.getDestinationByName(req.params.name as string)
       res.json({ success: true, data: destination })
     } catch (error: any) {
       const status = error.message === 'Destination not found' ? 404 : 500
