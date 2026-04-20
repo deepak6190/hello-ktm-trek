@@ -1,0 +1,97 @@
+[
+  {
+    "_id": "69e30f9dcf51780b585bb3ca",
+    "id": "dest-001",
+    "name": "Nepal",
+    "tagline": "Home of the Himalayas",
+    "description": "Nepal is the trekking capital of the world, home to eight of the ten highest peaks on Earth including Mount Everest. From the subtropical jungles of Chitwan to the icy heights of the Khumbu, Nepal offers an unmatched diversity of landscapes, cultures, and adventure.",
+    "thumbnail": "https://picsum.photos/seed/nepal/800/600",
+    "tripCount": 6,
+    "highlights": [
+      "Mount Everest (8,849 m)",
+      "Annapurna Circuit",
+      "Chitwan National Park",
+      "Kathmandu Heritage Sites",
+      "Pokhara & Phewa Lake"
+    ],
+    "__v": 0,
+    "createdAt": "2026-04-18T04:59:09.749Z",
+    "updatedAt": "2026-04-18T04:59:09.749Z"
+  },
+  {
+    "_id": "69e30f9dcf51780b585bb3cb",
+    "id": "dest-002",
+    "name": "Bhutan",
+    "tagline": "The Last Shangri-La",
+    "description": "Bhutan is the world's only carbon-negative country and measures its prosperity by Gross National Happiness. This pristine Himalayan kingdom offers ancient monasteries, colourful festivals, and untouched landscapes — all within a strictly managed, high-value tourism model.",
+    "thumbnail": "https://picsum.photos/seed/bhutan-dest/800/600",
+    "tripCount": 1,
+    "highlights": [
+      "Tiger's Nest Monastery",
+      "Punakha Dzong",
+      "Dochula Pass",
+      "Traditional Festivals",
+      "Pristine Himalayan Forests"
+    ],
+    "__v": 0,
+    "createdAt": "2026-04-18T04:59:09.749Z",
+    "updatedAt": "2026-04-18T04:59:09.749Z"
+  },
+  {
+    "_id": "69e30f9dcf51780b585bb3cc",
+    "id": "dest-003",
+    "name": "Tibet",
+    "tagline": "Roof of the World",
+    "description": "Tibet, the \"Roof of the World\", is a land of vast plateaus, ancient Buddhist monasteries, and breathtaking mountain scenery. The sacred city of Lhasa, the Potala Palace, and the remote Everest North Base Camp make it one of the most spiritually and visually compelling destinations on Earth.",
+    "thumbnail": "https://picsum.photos/seed/tibet/800/600",
+    "tripCount": 2,
+    "highlights": [
+      "Potala Palace, Lhasa",
+      "Everest North Base Camp",
+      "Namtso Lake",
+      "Sera Monastery",
+      "Mount Kailash pilgrimage"
+    ],
+    "__v": 0,
+    "createdAt": "2026-04-18T04:59:09.749Z",
+    "updatedAt": "2026-04-18T04:59:09.749Z"
+  },
+  {
+    "_id": "69e30f9dcf51780b585bb3cd",
+    "id": "dest-004",
+    "name": "India",
+    "tagline": "Incredible Diversity",
+    "description": "India's Himalayan states offer some of the most varied trekking and adventure experiences in Asia. From the rhododendron-clad slopes of Sikkim to the remote valleys of Ladakh and Spiti, the subcontinent's northern reaches are a world unto themselves.",
+    "thumbnail": "https://picsum.photos/seed/india-him/800/600",
+    "tripCount": 1,
+    "highlights": [
+      "Ladakh Plateau",
+      "Spiti Valley",
+      "Sikkim & Kangchenjunga",
+      "Darjeeling Tea Country",
+      "Kedarnath Trek"
+    ],
+    "__v": 0,
+    "createdAt": "2026-04-18T04:59:09.749Z",
+    "updatedAt": "2026-04-18T04:59:09.749Z"
+  },
+  {
+    "_id": "69e30f9dcf51780b585bb3ce",
+    "id": "dest-005",
+    "name": "Peru",
+    "tagline": "Inca Trail & Amazon",
+    "description": "Peru combines two of the world's great wildernesses: the high Andes and the Amazon rainforest. The legendary Inca Trail to Machu Picchu is one of the most iconic treks on Earth, while the Ausangate and Huayhuash circuits challenge even experienced mountaineers.",
+    "thumbnail": "https://picsum.photos/seed/peru/800/600",
+    "tripCount": 1,
+    "highlights": [
+      "Inca Trail to Machu Picchu",
+      "Cusco & Sacred Valley",
+      "Lake Titicaca",
+      "Ausangate Circuit",
+      "Amazon Basin"
+    ],
+    "__v": 0,
+    "createdAt": "2026-04-18T04:59:09.749Z",
+    "updatedAt": "2026-04-18T04:59:09.749Z"
+  }
+]

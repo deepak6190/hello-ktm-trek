@@ -1,0 +1,62 @@
+export const REVIEWS = [
+  {
+    id: 'review-001',
+    author: 'James Hartley',
+    rating: 5,
+    comment:
+      'The Everest Base Camp trek with Hello KTM Trek was the most transformative experience of my life. Our guide Tenzin was knowledgeable, patient, and genuinely cared about our wellbeing. The teahouses were comfortable and the food was surprisingly good. I cannot recommend this company highly enough.',
+    tripTitle: 'Everest Base Camp Trek',
+    date: '2025-11-15',
+    source: 'Google',
+  },
+  {
+    id: 'review-002',
+    author: 'Sophie Laurent',
+    rating: 5,
+    comment:
+      "Completed the Annapurna Circuit in October and it exceeded every expectation. Crossing Thorong La in the early morning light with the entire Himalayan horizon visible was something I will never forget. The team was brilliant — organised, safe, and full of humour. Already planning to come back for Manaslu.",
+    tripTitle: 'Annapurna Circuit Trek',
+    date: '2025-10-28',
+    source: 'TripAdvisor',
+  },
+  {
+    id: 'review-003',
+    author: 'Ravi Chandrasekaran',
+    rating: 5,
+    comment:
+      'Bhutan Cultural Highlights was perfectly curated. The Tiger\'s Nest hike is genuinely one of the most magical places I have ever visited. Our guide Karma had deep knowledge of Buddhist philosophy and local history that made every site come alive. Worth every penny of the SDF.',
+    tripTitle: 'Bhutan Cultural Highlights Tour',
+    date: '2026-01-08',
+    source: 'Direct',
+  },
+  {
+    id: 'review-004',
+    author: 'Emily Foster',
+    rating: 5,
+    comment:
+      'The Langtang Valley trek was perfect for my first Himalayan adventure. Much less crowded than Everest or Annapurna, the scenery was stunning, and the Tamang culture was fascinating. My guide spoke excellent English and pointed out wildlife and plants I never would have noticed on my own.',
+    tripTitle: 'Langtang Valley Trek',
+    date: '2025-12-03',
+    source: 'Google',
+  },
+  {
+    id: 'review-005',
+    author: 'Tom Whitfield',
+    rating: 5,
+    comment:
+      'Paragliding over Pokhara was an absolute bucket-list tick. The pilot was professional and confident, and the views of the Annapurnas reflected in Phewa Lake below us were unreal. The GoPro footage they gave us is incredible. Highly recommended even if you\'re nervous — I was, and I\'m so glad I went.',
+    tripTitle: 'Pokhara Paragliding Experience',
+    date: '2026-02-19',
+    source: 'TripAdvisor',
+  },
+  {
+    id: 'review-006',
+    author: 'Anna Kowalski',
+    rating: 5,
+    comment:
+      'We did the Annapurna Base Camp trek in April and the rhododendron forests were absolutely breathtaking. Standing in the Sanctuary surrounded by 8,000 m peaks on three sides is an overwhelming feeling. Hello KTM Trek handled everything seamlessly — logistics, permits, accommodation — we just had to walk and enjoy.',
+    tripTitle: 'Annapurna Base Camp Trek',
+    date: '2026-04-12',
+    source: 'Direct',
+  },
+]
