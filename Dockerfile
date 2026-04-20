@@ -1,8 +1,8 @@
 FROM node:20-alpine
 WORKDIR /app
-COPY package*.json ./
+COPY hello-ktm-trek-api/package*.json ./
 RUN npm ci
-COPY . .
+COPY hello-ktm-trek-api/ .
 RUN npm run build
 EXPOSE 5001
 CMD ["npm", "start"]
